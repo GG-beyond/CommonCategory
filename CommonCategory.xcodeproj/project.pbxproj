@@ -139,18 +139,10 @@
 		372F8D5321C8C73900414221 /* CommonCategory */ = {
 			isa = PBXGroup;
 			children = (
-				372F8D5C21C8C7B500414221 /* Foundation_Category */,
 				372F8D6021C8C86E00414221 /* AA.h */,
 				372F8D6121C8C86E00414221 /* AA.m */,
 			);
 			path = CommonCategory;
-			sourceTree = "<group>";
-		};
-		372F8D5C21C8C7B500414221 /* Foundation_Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Foundation_Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
