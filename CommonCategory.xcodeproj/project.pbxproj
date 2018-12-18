@@ -16,6 +16,7 @@
 		372F8D3221C8C1BE00414221 /* CommonCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8D3121C8C1BE00414221 /* CommonCategoryTests.m */; };
 		372F8D3D21C8C1BE00414221 /* CommonCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8D3C21C8C1BE00414221 /* CommonCategoryUITests.m */; };
 		372F8D6221C8C86E00414221 /* AA.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8D6121C8C86E00414221 /* AA.m */; };
+		372F8D6621C8CCFB00414221 /* CLLocationManager+JRConverCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 372F8D6421C8CCFB00414221 /* CLLocationManager+JRConverCoordinate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		372F8D3E21C8C1BE00414221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		372F8D6021C8C86E00414221 /* AA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AA.h; sourceTree = "<group>"; };
 		372F8D6121C8C86E00414221 /* AA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AA.m; sourceTree = "<group>"; };
+		372F8D6421C8CCFB00414221 /* CLLocationManager+JRConverCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+JRConverCoordinate.m"; sourceTree = "<group>"; };
+		372F8D6521C8CCFB00414221 /* CLLocationManager+JRConverCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+JRConverCoordinate.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +142,20 @@
 		372F8D5321C8C73900414221 /* CommonCategory */ = {
 			isa = PBXGroup;
 			children = (
+				372F8D6321C8CCEC00414221 /* Foundation */,
 				372F8D6021C8C86E00414221 /* AA.h */,
 				372F8D6121C8C86E00414221 /* AA.m */,
 			);
 			path = CommonCategory;
+			sourceTree = "<group>";
+		};
+		372F8D6321C8CCEC00414221 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				372F8D6521C8CCFB00414221 /* CLLocationManager+JRConverCoordinate.h */,
+				372F8D6421C8CCFB00414221 /* CLLocationManager+JRConverCoordinate.m */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 			files = (
 				372F8D1D21C8C1BC00414221 /* ViewController.m in Sources */,
 				372F8D6221C8C86E00414221 /* AA.m in Sources */,
+				372F8D6621C8CCFB00414221 /* CLLocationManager+JRConverCoordinate.m in Sources */,
 				372F8D2821C8C1BD00414221 /* main.m in Sources */,
 				372F8D1A21C8C1BC00414221 /* AppDelegate.m in Sources */,
 			);
