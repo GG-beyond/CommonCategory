@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "https://github.com/GG-beyond/CommonCategory.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/GG-beyond/CommonCategory.git", :tag => "0.0.5" }
 
 
   s.subspec 'CommonCategory' do |ss|
